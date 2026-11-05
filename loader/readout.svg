@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 24" width="40" height="24">
+  <!-- An elbow and three bars lighting in turn, as LCARS readouts cycle. -->
+  <style>
+    .b { opacity: 0.25; animation: lit 1.5s steps(1, end) infinite; }
+    .b2 { animation-delay: 0.5s; } .b3 { animation-delay: 1s; }
+    @keyframes lit { 0% { opacity: 1; } 33% { opacity: 0.25; } }
+    @media (prefers-reduced-motion: reduce) { .b { animation: none; opacity: 1; } }
+  </style>
+  <path d="M1 23V8a7 7 0 0 1 7-7h31v4H10a3 3 0 0 0-3 3v15z" fill="#e0cda4"/>
+  <rect class="b" x="10" y="8" width="29" height="4" rx="2" fill="#329be6"/>
+  <rect class="b b2" x="10" y="13.5" width="22" height="4" rx="2" fill="#d19892"/>
+  <rect class="b b3" x="10" y="19" width="26" height="4" rx="2" fill="#d19bb2"/>
+</svg>

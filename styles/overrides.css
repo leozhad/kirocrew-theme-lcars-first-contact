@@ -1,0 +1,41 @@
+/*
+ * First Contact: the 2373 Enterprise-E LCARS (Michael Okuda's film set).
+ * Black glass framed by parchment elbows and bars, with dusty rose, mauve,
+ * azure and ice-blue blocks. Helvetica Ultra Compressed type. Light mode
+ * uses the same rules.
+ * Only runtime-allowlisted surfaces are styled. Fonts come from theme.json.
+ */
+/* The LCARS elbow: a thick vertical bar that turns into a thinner top bar
+ * through a rounded outer corner, with a smaller inner curve. */
+[data-theme="custom-leozh-lcars-fc-dark"] .sidebar,
+[data-theme="custom-leozh-lcars-fc-light"] .sidebar {
+  border-style: solid;
+  border-color: #e0cda4 transparent transparent #e0cda4;
+  border-width: 9px 0 0 22px;
+  border-radius: 40px 0 0 0;
+}
+[data-theme="custom-leozh-lcars-fc-dark"] .code-block,
+[data-theme="custom-leozh-lcars-fc-light"] .code-block {
+  border-style: solid;
+  border-color: #329be6 transparent transparent #329be6;
+  border-width: 6px 0 0 14px;
+  border-radius: 28px 0 0 0;
+}
+/* A message reads like an LCARS readout: a rose bar down its left side. */
+[data-theme="custom-leozh-lcars-fc-dark"] .message-bubble,
+[data-theme="custom-leozh-lcars-fc-light"] .message-bubble {
+  border-left: 10px solid #d19892;
+  border-radius: 14px 4px 4px 14px;
+  padding-left: 14px;
+}
+[data-theme="custom-leozh-lcars-fc-dark"] .input-area,
+[data-theme="custom-leozh-lcars-fc-light"] .input-area {
+  caret-color: #72cafc;
+}
+/* LCARS buttons are pills with upper-case labels. */
+[data-theme="custom-leozh-lcars-fc-dark"] button.primary,
+[data-theme="custom-leozh-lcars-fc-light"] button.primary {
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "leozh-lcars-fc",
+  "name": "LCARS · First Contact",
+  "emoji": "🚀",
+  "level": 2,
+  "formatVersion": 1,
+  "fonts": [
+    {
+      "family": "Antonio",
+      "file": "antonio-400.ttf",
+      "weight": 400,
+      "role": "sans"
+    },
+    {
+      "family": "Antonio",
+      "file": "antonio-500.ttf",
+      "weight": 500,
+      "role": "sans"
+    },
+    {
+      "family": "Antonio",
+      "file": "antonio-600.ttf",
+      "weight": 600,
+      "role": "sans"
+    },
+    {
+      "family": "Antonio",
+      "file": "antonio-700.ttf",
+      "weight": 700,
+      "role": "sans"
+    }
+  ],
+  "overlays": [
+    {
+      "id": "standby",
+      "src": "overlays/standby.html",
+      "position": "fullscreen",
+      "zIndex": 44,
+      "pointerEvents": true,
+      "animation": "continuous",
+      "trigger": "idle-900s"
+    }
+  ]
+}

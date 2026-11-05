@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- An LCARS elbow with three blocks (frame 141). -->
+  <rect width="32" height="32" rx="4" fill="#000000"/>
+  <path d="M3 29V11a8 8 0 0 1 8-8h18v4.5H12.5a2.5 2.5 0 0 0-2.5 2.5V29z" fill="#e0cda4"/>
+  <rect x="13" y="11" width="16" height="4.4" rx="2.2" fill="#329be6"/>
+  <rect x="13" y="17.6" width="16" height="4.4" rx="2.2" fill="#d19892"/>
+  <rect x="13" y="24.2" width="10" height="4.4" rx="2.2" fill="#d19bb2"/>
+</svg>
