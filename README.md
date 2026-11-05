@@ -53,7 +53,7 @@ Source: 4K remaster Blu-ray (2023). Scenic art: Michael Okuda's team.
 
 Type: Helvetica Ultra Compressed ([Memory Alpha](https://memory-alpha.fandom.com/wiki/Star_Trek_fonts)), seen in "ACCESS DENIED / LCARS COMMAND NET NOT AVAILABLE" (1478) and "ENTER DESTINATION COORDINATES" (1841). The pack uses Antonio, which its authors describe as a refinement of Anton, not a Helvetica copy. Set beside frame 1478, Antonio's letters match in shape and proportion but are spaced wider and drawn lighter. League Gothic matched the weight and spacing more closely, but has one weight, which is too heavy for chat text; Antonio has the four weights the dashboard uses.
 
-Shapes: elbows and bars with rounded ends, in parchment, framing each screen (141, 218).
+Shapes: elbows and bars with rounded ends, in parchment, framing each screen (141, 218). The frames show top-left and bottom-left elbows. The pack's session-list elbow is mirrored to the bottom right instead: the dashboard keeps its "Hide sessions sidebar" button at the panel's top left, outside the panel, so a left or top bar slides under that button.
 
 Limits: the normal-condition colours come from wide bridge shots (141, 218), where the panels bloom. The close-ups in the chapters sampled (13, 22, 25) are all at red alert. The orange pixels in those frames turned out to be skin, so the pack has no LCARS orange and warnings use the olive-yellow.
 

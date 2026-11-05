@@ -5,14 +5,17 @@
  * uses the same rules.
  * Only runtime-allowlisted surfaces are styled. Fonts come from theme.json.
  */
-/* The LCARS elbow: a thick vertical bar that turns into a thinner top bar
- * through a rounded outer corner, with a smaller inner curve. */
+/* The LCARS elbow: a thick vertical bar that turns into a thinner bar
+ * through a rounded outer corner, with a smaller inner curve. On the session
+ * list it is mirrored to the bottom right: the dashboard places its "Hide
+ * sessions sidebar" button at the panel's top left, outside the panel, so a
+ * left or top border would slide the panel under that button. */
 [data-theme="custom-leozh-lcars-fc-dark"] .sidebar,
 [data-theme="custom-leozh-lcars-fc-light"] .sidebar {
   border-style: solid;
-  border-color: #e0cda4 transparent transparent #e0cda4;
-  border-width: 9px 0 0 22px;
-  border-radius: 40px 0 0 0;
+  border-color: transparent #e0cda4 #e0cda4 transparent;
+  border-width: 0 22px 9px 0;
+  border-radius: 0 0 40px 0;
 }
 [data-theme="custom-leozh-lcars-fc-dark"] .code-block,
 [data-theme="custom-leozh-lcars-fc-light"] .code-block {
