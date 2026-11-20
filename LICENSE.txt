@@ -4,9 +4,13 @@ LCARS · First Contact theme pack for Kiro Crew
 This file covers the pack's own code and artwork and the font it ships.
 
 -------------------------------------------------------------------------------
-1. Pack code and artwork (theme.json, variables.json, styles/overrides.css,
-   branding/, loader/, overlays/ script)
+1. Pack code, artwork and sounds (theme.json, variables.json,
+   styles/overrides.css, branding/, loader/, audio/, overlays/ script)
 -------------------------------------------------------------------------------
+
+The Starfleet insignia and the ship outline in branding/ are fan art of
+designs owned by CBS Studios / Paramount. The license below covers this
+pack's own work; it grants no rights in those designs or marks.
 
 MIT License
 
@@ -32,6 +36,7 @@ SOFTWARE.
 
 -------------------------------------------------------------------------------
 2. Antonio (styles/fonts/antonio-*.ttf)
+   and the letter outlines drawn in branding/splash.svg
    and the glyphs embedded in overlays/standby.html
 -------------------------------------------------------------------------------
 
