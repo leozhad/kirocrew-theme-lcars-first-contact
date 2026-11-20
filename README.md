@@ -6,9 +6,10 @@ An unofficial Kiro Crew theme modeled on the Enterprise-E LCARS in *Star Trek: F
 - **Light mode:** the same as dark. The film has no light screens.
 - **Type:** Antonio, a free compressed sans close to Helvetica Ultra Compressed, the LCARS type. The film's type is tighter and heavier.
 - **Thinking indicator:** an elbow and three bars lighting in turn.
+- **Welcome mark:** the 2370s Starfleet delta over its oval, in parchment and tan, on a new chat's welcome screen.
 - **Screensaver:** after 15 minutes with no key press, click, scroll or touch, a full LCARS panel in the film's colours: "U.S.S. ENTERPRISE NCC-1701-E", "STARDATE 50893.5" (the film's opening log), the Starfleet delta, changing number columns and stepping bars. Press a key or click to dismiss it; the click does not reach the app. The dashboard's nav, session list and chat header stay on top, so the panel fills the area to their right. It does not run when the OS is set to reduce motion, and it stops after 30 minutes.
 - **Desktop splash:** while the desktop app waits for its gateway, an LCARS panel: parchment elbows, the 2370s Starfleet delta over its oval, LCARS buttons, number columns and stepping bars. It holds still when the OS asks for reduced motion.
-- **Insignia:** the browser tab and the new-chat screen show the 2370s Starfleet delta over its oval, in parchment and tan.
+- **Insignia:** the browser tab shows the same delta.
 - **Code:** code blocks, diffs and the file viewer use the `catppuccin-mocha` scheme (pastel rose, mauve, peach and blue) in both modes, so code stays readable on the black glass.
 - **Sounds:** LCARS chirps when the theme turns on or off, when a reply arrives, on notifications, and when an approval waits. Original sounds made in code (`tools/sounds.py`), shaped after the TNG-era LCARS beeps: short bright tones in quick steps. None is taken from the film. They stay silent under reduced motion and while sounds are muted.
 
@@ -18,9 +19,9 @@ Needs Kiro Crew 0.13.0 or newer; older versions refuse the pack.
 
 Pick System under Settings → Display → Font Family to keep the OS font.
 
-| Chat | Screensaver | Desktop splash |
-|---|---|---|
-| ![Tan text on black, a parchment elbow round the session list, azure elbows on code blocks, a rose bar beside each message](.github/screenshots/first-contact-dark.png) | ![A full LCARS panel: U.S.S. Enterprise NCC-1701-E, System Access, columns of numbers, blue bars, Stardate 50893.5](.github/screenshots/first-contact-screensaver.png) | ![Desktop splash: an LCARS panel with parchment elbows, the Starfleet delta, LCARS buttons, number columns and bars](.github/screenshots/first-contact-splash.jpg) |
+| Chat | Screensaver | Desktop splash | Welcome mark | First pick |
+|---|---|---|---|---|
+| ![Tan text on black, a parchment elbow round the session list, azure elbows on code blocks, a rose bar beside each message](.github/screenshots/first-contact-dark.png) | ![A full LCARS panel: U.S.S. Enterprise NCC-1701-E, System Access, columns of numbers, blue bars, Stardate 50893.5](.github/screenshots/first-contact-screensaver.png) | ![Desktop splash: an LCARS panel with parchment elbows, the Starfleet delta, LCARS buttons, number columns and bars](.github/screenshots/first-contact-splash.jpg) | ![A new chat's welcome screen: the Starfleet delta over its oval in parchment and tan above a pale greeting and six starter cards](.github/screenshots/first-contact-welcome.jpg) | ![The dialog "Enable LCARS · First Contact experience?" with Sounds and Overlays checked, and Keep colors only and Save buttons](.github/screenshots/first-contact-first-pick.jpg) |
 
 ## The three LCARS packs
 
