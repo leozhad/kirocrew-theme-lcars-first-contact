@@ -132,6 +132,28 @@
     ctx.fill()
   }
 
+  // The 2370s Starfleet delta over its oval (the crew's badges): tan oval,
+  // parchment delta with a black keyline. Same shape as the pack's splash.
+  function delta(cx, cy, s) {
+    const p = (x, y) => [cx + x * s, cy + y * s]
+    ctx.fillStyle = C.tan
+    ctx.beginPath()
+    ctx.ellipse(cx, cy + 0.3 * s, 0.95 * s, 0.4 * s, 0, 0, Math.PI * 2)
+    ctx.fill()
+    ctx.beginPath()
+    ctx.moveTo(...p(0, -1))
+    ctx.bezierCurveTo(...p(0.17, -0.5), ...p(0.4, 0.3), ...p(0.6, 0.95))
+    ctx.quadraticCurveTo(...p(0.3, 0.58), ...p(0, 0.56))
+    ctx.quadraticCurveTo(...p(-0.3, 0.58), ...p(-0.6, 0.95))
+    ctx.bezierCurveTo(...p(-0.4, 0.3), ...p(-0.17, -0.5), ...p(0, -1))
+    ctx.closePath()
+    ctx.fillStyle = C.parchment
+    ctx.fill()
+    ctx.lineWidth = 0.09 * s
+    ctx.strokeStyle = '#000'
+    ctx.stroke()
+  }
+
   let W = 0, H = 0, DPR = 1, L = null
 
   function layout() {
@@ -215,6 +237,8 @@
     pill(xR - 3.2 * u + gap, top, 3.2 * u - gap, topH, C.parchment, 'right')
     // Under the title: the registry in small type.
     text(C.subtitle, xR, top + topH + 2.2 * u, 1.2 * u, C.ice, 'r')
+    // The Starfleet delta in the open area under the top bar.
+    delta(x0 + colW + 5.5 * u, top + topH + 5.4 * u, 3.4 * u)
     // Upper elbow's side blocks.
     rect(x0, top + 6 * u, colW, 3.2 * u, C.rose)
     text(L.upperLabel, x0 + colW - 0.5 * u, top + 9 * u - 0.3 * u, 0.95 * u, '#000', 'r')

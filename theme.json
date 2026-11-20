@@ -30,6 +30,10 @@
       "role": "sans"
     }
   ],
+  "codeTheme": {
+    "dark": "catppuccin-mocha",
+    "light": "catppuccin-mocha"
+  },
   "overlays": [
     {
       "id": "standby",
